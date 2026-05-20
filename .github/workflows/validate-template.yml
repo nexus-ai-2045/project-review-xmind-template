@@ -1,0 +1,17 @@
+name: Validate XMind template
+
+on:
+  pull_request:
+
+jobs:
+  validate-template:
+    name: Validate package structure
+    runs-on: windows-latest
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Validate XMind archive
+        shell: pwsh
+        run: ./scripts/validate-template.ps1
