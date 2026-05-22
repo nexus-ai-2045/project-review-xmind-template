@@ -1,0 +1,20 @@
+name: Validate XMind template
+
+on:
+  pull_request:
+  push:
+    branches:
+      - main
+
+jobs:
+  validate-template:
+    name: Validate package structure
+    runs-on: windows-latest
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Run local validation suite
+        shell: pwsh
+        run: ./scripts/test-local.ps1
