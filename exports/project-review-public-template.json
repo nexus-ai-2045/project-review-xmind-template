@@ -1,0 +1,624 @@
+{
+  "format": "project-review-mindmap",
+  "sheets": [
+    {
+      "title": "00 使い方",
+      "root": {
+        "title": "プロジェクトレビュー テンプレート",
+        "children": [
+          {
+            "title": "このテンプレートの目的",
+            "children": []
+          },
+          {
+            "title": "使うタイミング",
+            "children": [
+              {
+                "title": "週次レビュー: 進捗・リスク・TODOを更新",
+                "children": []
+              },
+              {
+                "title": "フェーズゲート: 継続 / 変更 / 停止を判断",
+                "children": []
+              },
+              {
+                "title": "炎上予防: 兆候・依存・未決事項を洗い出す",
+                "children": []
+              }
+            ]
+          },
+          {
+            "title": "おすすめ進行 45分",
+            "children": [
+              {
+                "title": "5分: 結論サマリーと今日の論点",
+                "children": []
+              },
+              {
+                "title": "10分: 進捗・成果物・品質",
+                "children": []
+              },
+              {
+                "title": "15分: 課題・リスク・依存関係",
+                "children": []
+              },
+              {
+                "title": "10分: 意思決定",
+                "children": []
+              },
+              {
+                "title": "5分: TODO・担当・期限・完了条件",
+                "children": []
+              }
+            ]
+          },
+          {
+            "title": "マーカー凡例",
+            "children": [
+              {
+                "title": "赤旗: 今すぐ扱うリスク / ブロッカー",
+                "children": []
+              },
+              {
+                "title": "橙旗: 注意が必要な遅延・依存",
+                "children": []
+              },
+              {
+                "title": "P1: 今日決める / 最優先",
+                "children": []
+              },
+              {
+                "title": "P2: 次回までに確認",
+                "children": []
+              },
+              {
+                "title": "完了: 証跡確認済み",
+                "children": []
+              },
+              {
+                "title": "進行中: 完了条件を明記",
+                "children": []
+              }
+            ]
+          },
+          {
+            "title": "配布前チェック",
+            "children": [
+              {
+                "title": "固有名詞・機密情報が残っていない",
+                "children": []
+              },
+              {
+                "title": "判断者・担当者・期限の欄がある",
+                "children": []
+              },
+              {
+                "title": "リスクとTODOが別管理になっている",
+                "children": []
+              },
+              {
+                "title": "次回レビューで更新する場所が明確",
+                "children": []
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "title": "01 レビュー本体",
+      "root": {
+        "title": "Project Review Board",
+        "children": [
+          {
+            "title": "00 エグゼクティブサマリー",
+            "children": [
+              {
+                "title": "総合判定: Green / Yellow / Red",
+                "children": []
+              },
+              {
+                "title": "一言結論: [現在の状態を一文で]",
+                "children": []
+              },
+              {
+                "title": "推奨判断: 継続 / 変更 / 保留 / 停止",
+                "children": []
+              },
+              {
+                "title": "最大リスク: [影響と期限]",
+                "children": []
+              },
+              {
+                "title": "次に進める条件: [承認・検証・完了条件]",
+                "children": []
+              }
+            ]
+          },
+          {
+            "title": "01 前提・ゴール",
+            "children": [
+              {
+                "title": "目的: なぜやるのか",
+                "children": []
+              },
+              {
+                "title": "成功条件: KPI / 完了定義 / 受入条件",
+                "children": []
+              },
+              {
+                "title": "対象範囲: 今回見るもの",
+                "children": []
+              },
+              {
+                "title": "対象外: 今回見ないもの",
+                "children": []
+              },
+              {
+                "title": "制約: 予算 / 期限 / 技術 / 契約",
+                "children": []
+              }
+            ]
+          },
+          {
+            "title": "02 進捗・マイルストーン",
+            "children": [
+              {
+                "title": "計画との差分: 予定通り / 遅れ / 前倒し",
+                "children": []
+              },
+              {
+                "title": "完了済み: 成果物 / 証跡 / 確認者",
+                "children": []
+              },
+              {
+                "title": "進行中: 担当 / 期限 / 完了条件",
+                "children": []
+              },
+              {
+                "title": "遅延・停滞: 原因 / 影響 / リカバリ",
+                "children": []
+              },
+              {
+                "title": "次のマイルストーン: 日付 / 判定条件",
+                "children": []
+              }
+            ]
+          },
+          {
+            "title": "03 成果物・品質",
+            "children": [
+              {
+                "title": "成果物一覧: 版 / リンク / オーナー",
+                "children": []
+              },
+              {
+                "title": "レビュー状態: 未着手 / レビュー中 / 承認済み",
+                "children": []
+              },
+              {
+                "title": "品質懸念: 欠陥 / 未検証 / 運用不安",
+                "children": []
+              },
+              {
+                "title": "証跡: テスト結果 / 議事録 / 添付",
+                "children": []
+              }
+            ]
+          },
+          {
+            "title": "04 課題・リスク Top 5",
+            "children": [
+              {
+                "title": "R1: [内容] 影響 / 確率 / 期限 / 対応方針",
+                "children": []
+              },
+              {
+                "title": "R2: [内容] 影響 / 確率 / 期限 / 対応方針",
+                "children": []
+              },
+              {
+                "title": "R3: [内容] 影響 / 確率 / 期限 / 対応方針",
+                "children": []
+              },
+              {
+                "title": "ブロッカー: 誰の判断・支援が必要か",
+                "children": []
+              }
+            ]
+          },
+          {
+            "title": "05 今日決めること",
+            "children": [
+              {
+                "title": "D1: 論点 / 選択肢 / 推奨案 / 決定者",
+                "children": []
+              },
+              {
+                "title": "D2: 論点 / 選択肢 / 推奨案 / 決定者",
+                "children": []
+              },
+              {
+                "title": "決定後は意思決定ログへ転記",
+                "children": []
+              }
+            ]
+          },
+          {
+            "title": "06 次アクション",
+            "children": [
+              {
+                "title": "P1 TODO: 担当 / 期限 / 完了条件",
+                "children": []
+              },
+              {
+                "title": "P2 TODO: 担当 / 期限 / 完了条件",
+                "children": []
+              },
+              {
+                "title": "ウォッチ項目: 次回確認すること",
+                "children": []
+              },
+              {
+                "title": "次回レビュー: 日時 / 参加者 / 持参物",
+                "children": []
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "title": "02 意思決定ログ",
+      "root": {
+        "title": "Decision Log",
+        "children": [
+          {
+            "title": "決定カードの型",
+            "children": [
+              {
+                "title": "論点: 何を決めるか",
+                "children": []
+              },
+              {
+                "title": "選択肢: A / B / C",
+                "children": []
+              },
+              {
+                "title": "推奨案: 理由つき",
+                "children": []
+              },
+              {
+                "title": "決定者: 名前 / 役割",
+                "children": []
+              },
+              {
+                "title": "決定期限: YYYY-MM-DD",
+                "children": []
+              },
+              {
+                "title": "決定結果: 採用案 / 条件 / 影響",
+                "children": []
+              }
+            ]
+          },
+          {
+            "title": "今日決める",
+            "children": [
+              {
+                "title": "[D-001] 論点 / 推奨案 / 決定者 / 期限",
+                "children": []
+              },
+              {
+                "title": "[D-002] 論点 / 推奨案 / 決定者 / 期限",
+                "children": []
+              }
+            ]
+          },
+          {
+            "title": "保留・持ち帰り",
+            "children": [
+              {
+                "title": "[D-101] 誰が / 何を確認 / いつ戻す",
+                "children": []
+              },
+              {
+                "title": "[D-102] 不足情報 / 入手先 / 期限",
+                "children": []
+              }
+            ]
+          },
+          {
+            "title": "決定済みログ",
+            "children": [
+              {
+                "title": "[D-900] 決定内容 / 日付 / 根拠 / 影響範囲",
+                "children": []
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "title": "03 リスク台帳",
+      "root": {
+        "title": "Risk Register",
+        "children": [
+          {
+            "title": "評価基準",
+            "children": [
+              {
+                "title": "影響: H=事業/顧客/期限に重大, M=局所影響, L=軽微",
+                "children": []
+              },
+              {
+                "title": "確率: H=起きそう, M=可能性あり, L=低い",
+                "children": []
+              },
+              {
+                "title": "対応: 回避 / 軽減 / 転嫁 / 受容",
+                "children": []
+              }
+            ]
+          },
+          {
+            "title": "Critical: 今すぐ扱う",
+            "children": [
+              {
+                "title": "[R-001] 内容 / 影響H / 確率H / オーナー / 期限 / 対応策",
+                "children": []
+              },
+              {
+                "title": "[R-002] 内容 / 影響H / 確率M / オーナー / 期限 / 対応策",
+                "children": []
+              }
+            ]
+          },
+          {
+            "title": "Watch: 監視する",
+            "children": [
+              {
+                "title": "[R-101] トリガー条件 / 監視者 / 次回確認日",
+                "children": []
+              },
+              {
+                "title": "[R-102] 依存先 / 代替案 / エスカレーション条件",
+                "children": []
+              }
+            ]
+          },
+          {
+            "title": "カテゴリ別チェック",
+            "children": [
+              {
+                "title": "技術・仕様: 未確定仕様 / 性能 / セキュリティ",
+                "children": []
+              },
+              {
+                "title": "スケジュール: 遅延 / クリティカルパス / 休暇",
+                "children": []
+              },
+              {
+                "title": "体制・負荷: キーマン依存 / レビュー不足",
+                "children": []
+              },
+              {
+                "title": "関係者: 合意不足 / 承認待ち / 利害衝突",
+                "children": []
+              },
+              {
+                "title": "運用: 移行 / 障害対応 / サポート",
+                "children": []
+              }
+            ]
+          },
+          {
+            "title": "受容済みリスク",
+            "children": [
+              {
+                "title": "[R-900] 受容理由 / 承認者 / 再評価日",
+                "children": []
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "title": "04 アクショントラッカー",
+      "root": {
+        "title": "Action Tracker",
+        "children": [
+          {
+            "title": "TODOの書き方",
+            "children": [
+              {
+                "title": "担当者: 個人名または明確な役割",
+                "children": []
+              },
+              {
+                "title": "期限: YYYY-MM-DD",
+                "children": []
+              },
+              {
+                "title": "完了条件: 何がどうなれば完了か",
+                "children": []
+              },
+              {
+                "title": "証跡: リンク / 添付 / 確認者",
+                "children": []
+              }
+            ]
+          },
+          {
+            "title": "P1 今週やる",
+            "children": [
+              {
+                "title": "[A-001] 内容 / 担当 / 期限 / 完了条件",
+                "children": []
+              },
+              {
+                "title": "[A-002] 内容 / 担当 / 期限 / 完了条件",
+                "children": []
+              }
+            ]
+          },
+          {
+            "title": "P2 次回までに確認",
+            "children": [
+              {
+                "title": "[A-101] 内容 / 担当 / 期限 / 完了条件",
+                "children": []
+              },
+              {
+                "title": "[A-102] 内容 / 担当 / 期限 / 完了条件",
+                "children": []
+              }
+            ]
+          },
+          {
+            "title": "Waiting 依存・返答待ち",
+            "children": [
+              {
+                "title": "[A-201] 依頼先 / 依頼日 / 返答期限 / 次の手",
+                "children": []
+              }
+            ]
+          },
+          {
+            "title": "Done 完了ログ",
+            "children": [
+              {
+                "title": "[A-900] 完了内容 / 完了日 / 証跡 / 確認者",
+                "children": []
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "title": "05 関係者・RACI",
+      "root": {
+        "title": "Stakeholders and RACI",
+        "children": [
+          {
+            "title": "主要関係者",
+            "children": [
+              {
+                "title": "Project Owner: 最終責任 / 予算 / 優先順位",
+                "children": []
+              },
+              {
+                "title": "PM: 進行 / 課題管理 / レビュー運営",
+                "children": []
+              },
+              {
+                "title": "Tech/Design/Business Lead: 専門判断",
+                "children": []
+              },
+              {
+                "title": "Approver: 承認者 / 決裁条件",
+                "children": []
+              }
+            ]
+          },
+          {
+            "title": "RACI",
+            "children": [
+              {
+                "title": "R Responsible: 実行責任",
+                "children": []
+              },
+              {
+                "title": "A Accountable: 最終責任",
+                "children": []
+              },
+              {
+                "title": "C Consulted: 相談先",
+                "children": []
+              },
+              {
+                "title": "I Informed: 共有先",
+                "children": []
+              }
+            ]
+          },
+          {
+            "title": "コミュニケーション設計",
+            "children": [
+              {
+                "title": "定例: 頻度 / 参加者 / 判断テーマ",
+                "children": []
+              },
+              {
+                "title": "報告: チャネル / 形式 / 締切",
+                "children": []
+              },
+              {
+                "title": "エスカレーション: 条件 / 連絡先 / SLA",
+                "children": []
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "title": "06 学び・改善",
+      "root": {
+        "title": "Lessons and Template Improvement",
+        "children": [
+          {
+            "title": "レビュー後5分",
+            "children": [
+              {
+                "title": "Keep: 続けること",
+                "children": []
+              },
+              {
+                "title": "Problem: 詰まったこと",
+                "children": []
+              },
+              {
+                "title": "Try: 次回変えること",
+                "children": []
+              }
+            ]
+          },
+          {
+            "title": "テンプレ改善メモ",
+            "children": [
+              {
+                "title": "足りなかった枝",
+                "children": []
+              },
+              {
+                "title": "使われなかった枝",
+                "children": []
+              },
+              {
+                "title": "次版で標準化する運用",
+                "children": []
+              }
+            ]
+          },
+          {
+            "title": "ナレッジ化",
+            "children": [
+              {
+                "title": "[Lesson] 状況 / 学び / 再利用条件",
+                "children": []
+              },
+              {
+                "title": "[Anti-pattern] 兆候 / 対策 / チェック方法",
+                "children": []
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}
