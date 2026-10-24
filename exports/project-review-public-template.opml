@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<opml version="2.0">
+  <head><title>Project Review Public Template</title></head>
+  <body>
+    <outline text="00 使い方">
+      <outline text="プロジェクトレビュー テンプレート">
+        <outline text="このテンプレートの目的"/>
+        <outline text="使うタイミング">
+          <outline text="週次レビュー: 進捗・リスク・TODOを更新"/>
+          <outline text="フェーズゲート: 継続 / 変更 / 停止を判断"/>
+          <outline text="炎上予防: 兆候・依存・未決事項を洗い出す"/>
+        </outline>
+        <outline text="おすすめ進行 45分">
+          <outline text="5分: 結論サマリーと今日の論点"/>
+          <outline text="10分: 進捗・成果物・品質"/>
+          <outline text="15分: 課題・リスク・依存関係"/>
+          <outline text="10分: 意思決定"/>
+          <outline text="5分: TODO・担当・期限・完了条件"/>
+        </outline>
+        <outline text="マーカー凡例">
+          <outline text="赤旗: 今すぐ扱うリスク / ブロッカー"/>
+          <outline text="橙旗: 注意が必要な遅延・依存"/>
+          <outline text="P1: 今日決める / 最優先"/>
+          <outline text="P2: 次回までに確認"/>
+          <outline text="完了: 証跡確認済み"/>
+          <outline text="進行中: 完了条件を明記"/>
+        </outline>
+        <outline text="配布前チェック">
+          <outline text="固有名詞・機密情報が残っていない"/>
+          <outline text="判断者・担当者・期限の欄がある"/>
+          <outline text="リスクとTODOが別管理になっている"/>
+          <outline text="次回レビューで更新する場所が明確"/>
+        </outline>
+      </outline>
+    </outline>
+    <outline text="01 レビュー本体">
+      <outline text="Project Review Board">
+        <outline text="00 エグゼクティブサマリー">
+          <outline text="総合判定: Green / Yellow / Red"/>
+          <outline text="一言結論: [現在の状態を一文で]"/>
+          <outline text="推奨判断: 継続 / 変更 / 保留 / 停止"/>
+          <outline text="最大リスク: [影響と期限]"/>
+          <outline text="次に進める条件: [承認・検証・完了条件]"/>
+        </outline>
+        <outline text="01 前提・ゴール">
+          <outline text="目的: なぜやるのか"/>
+          <outline text="成功条件: KPI / 完了定義 / 受入条件"/>
+          <outline text="対象範囲: 今回見るもの"/>
+          <outline text="対象外: 今回見ないもの"/>
+          <outline text="制約: 予算 / 期限 / 技術 / 契約"/>
+        </outline>
+        <outline text="02 進捗・マイルストーン">
+          <outline text="計画との差分: 予定通り / 遅れ / 前倒し"/>
+          <outline text="完了済み: 成果物 / 証跡 / 確認者"/>
+          <outline text="進行中: 担当 / 期限 / 完了条件"/>
+          <outline text="遅延・停滞: 原因 / 影響 / リカバリ"/>
+          <outline text="次のマイルストーン: 日付 / 判定条件"/>
+        </outline>
+        <outline text="03 成果物・品質">
+          <outline text="成果物一覧: 版 / リンク / オーナー"/>
+          <outline text="レビュー状態: 未着手 / レビュー中 / 承認済み"/>
+          <outline text="品質懸念: 欠陥 / 未検証 / 運用不安"/>
+          <outline text="証跡: テスト結果 / 議事録 / 添付"/>
+        </outline>
+        <outline text="04 課題・リスク Top 5">
+          <outline text="R1: [内容] 影響 / 確率 / 期限 / 対応方針"/>
+          <outline text="R2: [内容] 影響 / 確率 / 期限 / 対応方針"/>
+          <outline text="R3: [内容] 影響 / 確率 / 期限 / 対応方針"/>
+          <outline text="ブロッカー: 誰の判断・支援が必要か"/>
+        </outline>
+        <outline text="05 今日決めること">
+          <outline text="D1: 論点 / 選択肢 / 推奨案 / 決定者"/>
+          <outline text="D2: 論点 / 選択肢 / 推奨案 / 決定者"/>
+          <outline text="決定後は意思決定ログへ転記"/>
+        </outline>
+        <outline text="06 次アクション">
+          <outline text="P1 TODO: 担当 / 期限 / 完了条件"/>
+          <outline text="P2 TODO: 担当 / 期限 / 完了条件"/>
+          <outline text="ウォッチ項目: 次回確認すること"/>
+          <outline text="次回レビュー: 日時 / 参加者 / 持参物"/>
+        </outline>
+      </outline>
+    </outline>
+    <outline text="02 意思決定ログ">
+      <outline text="Decision Log">
+        <outline text="決定カードの型">
+          <outline text="論点: 何を決めるか"/>
+          <outline text="選択肢: A / B / C"/>
+          <outline text="推奨案: 理由つき"/>
+          <outline text="決定者: 名前 / 役割"/>
+          <outline text="決定期限: YYYY-MM-DD"/>
+          <outline text="決定結果: 採用案 / 条件 / 影響"/>
+        </outline>
+        <outline text="今日決める">
+          <outline text="[D-001] 論点 / 推奨案 / 決定者 / 期限"/>
+          <outline text="[D-002] 論点 / 推奨案 / 決定者 / 期限"/>
+        </outline>
+        <outline text="保留・持ち帰り">
+          <outline text="[D-101] 誰が / 何を確認 / いつ戻す"/>
+          <outline text="[D-102] 不足情報 / 入手先 / 期限"/>
+        </outline>
+        <outline text="決定済みログ">
+          <outline text="[D-900] 決定内容 / 日付 / 根拠 / 影響範囲"/>
+        </outline>
+      </outline>
+    </outline>
+    <outline text="03 リスク台帳">
+      <outline text="Risk Register">
+        <outline text="評価基準">
+          <outline text="影響: H=事業/顧客/期限に重大, M=局所影響, L=軽微"/>
+          <outline text="確率: H=起きそう, M=可能性あり, L=低い"/>
+          <outline text="対応: 回避 / 軽減 / 転嫁 / 受容"/>
+        </outline>
+        <outline text="Critical: 今すぐ扱う">
+          <outline text="[R-001] 内容 / 影響H / 確率H / オーナー / 期限 / 対応策"/>
+          <outline text="[R-002] 内容 / 影響H / 確率M / オーナー / 期限 / 対応策"/>
+        </outline>
+        <outline text="Watch: 監視する">
+          <outline text="[R-101] トリガー条件 / 監視者 / 次回確認日"/>
+          <outline text="[R-102] 依存先 / 代替案 / エスカレーション条件"/>
+        </outline>
+        <outline text="カテゴリ別チェック">
+          <outline text="技術・仕様: 未確定仕様 / 性能 / セキュリティ"/>
+          <outline text="スケジュール: 遅延 / クリティカルパス / 休暇"/>
+          <outline text="体制・負荷: キーマン依存 / レビュー不足"/>
+          <outline text="関係者: 合意不足 / 承認待ち / 利害衝突"/>
+          <outline text="運用: 移行 / 障害対応 / サポート"/>
+        </outline>
+        <outline text="受容済みリスク">
+          <outline text="[R-900] 受容理由 / 承認者 / 再評価日"/>
+        </outline>
+      </outline>
+    </outline>
+    <outline text="04 アクショントラッカー">
+      <outline text="Action Tracker">
+        <outline text="TODOの書き方">
+          <outline text="担当者: 個人名または明確な役割"/>
+          <outline text="期限: YYYY-MM-DD"/>
+          <outline text="完了条件: 何がどうなれば完了か"/>
+          <outline text="証跡: リンク / 添付 / 確認者"/>
+        </outline>
+        <outline text="P1 今週やる">
+          <outline text="[A-001] 内容 / 担当 / 期限 / 完了条件"/>
+          <outline text="[A-002] 内容 / 担当 / 期限 / 完了条件"/>
+        </outline>
+        <outline text="P2 次回までに確認">
+          <outline text="[A-101] 内容 / 担当 / 期限 / 完了条件"/>
+          <outline text="[A-102] 内容 / 担当 / 期限 / 完了条件"/>
+        </outline>
+        <outline text="Waiting 依存・返答待ち">
+          <outline text="[A-201] 依頼先 / 依頼日 / 返答期限 / 次の手"/>
+        </outline>
+        <outline text="Done 完了ログ">
+          <outline text="[A-900] 完了内容 / 完了日 / 証跡 / 確認者"/>
+        </outline>
+      </outline>
+    </outline>
+    <outline text="05 関係者・RACI">
+      <outline text="Stakeholders and RACI">
+        <outline text="主要関係者">
+          <outline text="Project Owner: 最終責任 / 予算 / 優先順位"/>
+          <outline text="PM: 進行 / 課題管理 / レビュー運営"/>
+          <outline text="Tech/Design/Business Lead: 専門判断"/>
+          <outline text="Approver: 承認者 / 決裁条件"/>
+        </outline>
+        <outline text="RACI">
+          <outline text="R Responsible: 実行責任"/>
+          <outline text="A Accountable: 最終責任"/>
+          <outline text="C Consulted: 相談先"/>
+          <outline text="I Informed: 共有先"/>
+        </outline>
+        <outline text="コミュニケーション設計">
+          <outline text="定例: 頻度 / 参加者 / 判断テーマ"/>
+          <outline text="報告: チャネル / 形式 / 締切"/>
+          <outline text="エスカレーション: 条件 / 連絡先 / SLA"/>
+        </outline>
+      </outline>
+    </outline>
+    <outline text="06 学び・改善">
+      <outline text="Lessons and Template Improvement">
+        <outline text="レビュー後5分">
+          <outline text="Keep: 続けること"/>
+          <outline text="Problem: 詰まったこと"/>
+          <outline text="Try: 次回変えること"/>
+        </outline>
+        <outline text="テンプレ改善メモ">
+          <outline text="足りなかった枝"/>
+          <outline text="使われなかった枝"/>
+          <outline text="次版で標準化する運用"/>
+        </outline>
+        <outline text="ナレッジ化">
+          <outline text="[Lesson] 状況 / 学び / 再利用条件"/>
+          <outline text="[Anti-pattern] 兆候 / 対策 / チェック方法"/>
+        </outline>
+      </outline>
+    </outline>
+  </body>
+</opml>
